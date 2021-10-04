@@ -4,7 +4,7 @@
 
 ### Backend - API
 
-- Spring Boot - 2.5.*
+- Spring Boot
 - Java 11 or above
 - Gradle
 
