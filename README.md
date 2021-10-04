@@ -4,16 +4,15 @@
 
 ### Backend - API
 
-- .Net Core < 3.1
-- Clean Architecture Pattern - https://github.com/jasontaylordev/CleanArchitecture
-- FluentValidations - https://fluentvalidation.net/
-- AutoMapper - https://automapper.org/
+- Spring Boot - 2.5.*
+- Java 11 or above
+- Gradle
 
 ### Tests
 
-- nunit 
-- FluentAssertions
-- Moq
+- junit 
+- Mockito(https://site.mockito.org/)
+- javafaker
 
 ### Front end
 
