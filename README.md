@@ -4,22 +4,22 @@
 
 ### Backend - API
 
-.Net Core < 3.1
-Clean Architecture Pattern - https://github.com/jasontaylordev/CleanArchitecture
-FluentValidations - https://fluentvalidation.net/
-AutoMapper - https://automapper.org/
+- .Net Core < 3.1
+- Clean Architecture Pattern - https://github.com/jasontaylordev/CleanArchitecture
+- FluentValidations - https://fluentvalidation.net/
+- AutoMapper - https://automapper.org/
 
 ### Tests
 
-nunit 
-FluentAssertions
-Moq
+- nunit 
+- FluentAssertions
+- Moq
 
 ### Front end
 
-React
-Angular 
-Vue
+- React
+- Angular 
+- Vue
 
 ## Project
 
@@ -34,7 +34,8 @@ Implement a screen, APIs and database to manage customers. You should be able to
 
 ## Expectations
 
-Follow RESTful routes
-Follow TDD
-Use EF core ORM
-
+1. Follow RESTful routes
+2. Follow TDD
+3. Use EF core ORM
+4. Commit your code to github repo of your own
+5. Try to follow standards as much as possible
