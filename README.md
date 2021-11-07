@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # rampup-tasks
 
 <<<<<<< HEAD
@@ -44,3 +45,6 @@ Implement a screen, APIs and database to manage customers. You should be able to
 - Java Developer check branch java
 - Node/JS Developer check branch node
 >>>>>>> d3a9b2cc92ff40cd88b70c1faef624708ec161c6
+=======
+# AzendTech_project
+>>>>>>> 0f562a18584c5170632b5d7bbc91bcc2442a76a2
