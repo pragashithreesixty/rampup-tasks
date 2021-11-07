@@ -1,5 +1,6 @@
 # rampup-tasks
 
+<<<<<<< HEAD
 ## Technologies
 
 ### Backend - API
@@ -38,3 +39,8 @@ Implement a screen, APIs and database to manage customers. You should be able to
 3. Use an ORM
 4. Commit your code to github repo of your own
 5. Try to follow standards as much as possible
+=======
+- Dotnet Developer check branch dotnet
+- Java Developer check branch java
+- Node/JS Developer check branch node
+>>>>>>> d3a9b2cc92ff40cd88b70c1faef624708ec161c6
