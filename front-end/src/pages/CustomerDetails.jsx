@@ -7,6 +7,8 @@ import customerService from '../services/customer'
 function CustomerDetail()
 {
 
+    const URL = 'http://localhost:8000/api/customers';
+
     const [search, setSearch] = useState('');
     const [record, setRecord] = useState([]);
     const [name, setName] = useState('')
@@ -28,7 +30,7 @@ function CustomerDetail()
 
     
     const loadCustomerDetail = async () => {
-        fetch('http://localhost:8000/api/customers')
+        fetch(URL)
          .then(function(response){
             return response.json();
           })
@@ -42,14 +44,14 @@ function CustomerDetail()
 
 
     const searchRecords = () => {
-        axios.get(`http://localhost:8000/api/customers/${search}`)
+        axios.get(`${URL}/${search}`)
         .then(response => {
             setRecord(response.data);
         });
     }
 
     const deleteRecord = (id) => {
-        axios.delete(`http://localhost:8000/api/customers/${id}`)
+        axios.delete(`${URL}/${id}`)
         .then((result)=>{
             loadCustomerDetail();
         })
